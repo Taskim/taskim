@@ -116,7 +116,7 @@ function Stars({ position }) {
     const [geo, mat, vertices, coords] = useMemo(() => {
         const geo = new THREE.SphereBufferGeometry(1, 10, 10)
         const mat = new THREE.MeshBasicMaterial({
-            color: new THREE.Color('peachpuff')
+            color: new THREE.Color('white')
         })
         const coords = new Array(1000)
             .fill()
@@ -199,6 +199,7 @@ function Scene({ top, mouse }) {
             <Stars position={top.interpolate(top => [0, -1 + top / 20, 0])} />
             <Images top={top} mouse={mouse} scrollMax={scrollMax} />
             <Text
+                fontSize={250}
                 opacity={top.interpolate([0, 200], [1, 0])}
                 position={top.interpolate(top => [0, -1 + top / 200, 0])}>
                 taskim
@@ -210,7 +211,7 @@ function Scene({ top, mouse }) {
                     0
                 ])}
                 color="black"
-                fontSize={150}>
+                fontSize={120}>
                 Développeur web
             </Text>
         </>
