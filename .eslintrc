@@ -1,0 +1,40 @@
+
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "extends": [
+        "eslint:recommended",
+        "eslint-config-prettier",
+        "plugin:react/recommended"
+    ],
+    "globals": {
+        "global": true,
+        "window": true,
+        "process": true,
+        "fetch": true,
+        "document": true,
+        "Promise": true
+    },
+    "env": {
+        "es6": true
+    },
+    "settings": {
+        "react": {
+            "version": "15.6.2"
+        }
+    },
+    "rules": {
+        "no-process-env": 0,
+        "prefer-const": 1,
+        "prefer-spread": 1,
+        "prefer-destructuring": 1,
+        "react/react-in-jsx-scope": 0,
+        "flowtype/generic-spacing": 0,
+        "flowtype/space-after-type-colon": 0,
+        "flowtype/space-before-generic-bracket": 0,
+        "flowtype/space-before-type-colon": 0,
+        "flowtype/union-intersection-spacing": 0
+    }
+}
