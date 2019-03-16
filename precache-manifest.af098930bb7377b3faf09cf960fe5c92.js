@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ed87acaa36687cc7c985",
-    "url": "/taskim/static/css/main.f8a4c742.chunk.css"
+    "revision": "45ffffa2fe151a45314c",
+    "url": "/taskim/static/css/main.ea182a66.chunk.css"
   },
   {
-    "revision": "ed87acaa36687cc7c985",
-    "url": "/taskim/static/js/main.ed87acaa.chunk.js"
+    "revision": "45ffffa2fe151a45314c",
+    "url": "/taskim/static/js/main.45ffffa2.chunk.js"
   },
   {
     "revision": "5fd39bab7f7996a45962",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/taskim/static/media/crop-1.eff8d384.jpg"
   },
   {
-    "revision": "e675d3fecb9421bd540fac0a7fc33f28",
+    "revision": "0b2f43f2d1deb3af7838f04e4d65b870",
     "url": "/taskim/index.html"
   }
 ];
