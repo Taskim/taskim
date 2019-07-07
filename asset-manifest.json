@@ -1,14 +1,16 @@
 {
-  "main.css": "/taskim/static/css/main.ea182a66.chunk.css",
-  "main.js": "/taskim/static/js/main.45ffffa2.chunk.js",
-  "main.js.map": "/taskim/static/js/main.45ffffa2.chunk.js.map",
-  "runtime~main.js": "/taskim/static/js/runtime~main.5fd39bab.js",
-  "runtime~main.js.map": "/taskim/static/js/runtime~main.5fd39bab.js.map",
-  "static/js/2.eae7d382.chunk.js": "/taskim/static/js/2.eae7d382.chunk.js",
-  "static/js/2.eae7d382.chunk.js.map": "/taskim/static/js/2.eae7d382.chunk.js.map",
-  "index.html": "/taskim/index.html",
-  "precache-manifest.af098930bb7377b3faf09cf960fe5c92.js": "/taskim/precache-manifest.af098930bb7377b3faf09cf960fe5c92.js",
-  "service-worker.js": "/taskim/service-worker.js",
-  "static/css/main.ea182a66.chunk.css.map": "/taskim/static/css/main.ea182a66.chunk.css.map",
-  "static/media/crop-1.jpg": "/taskim/static/media/crop-1.eff8d384.jpg"
+  "files": {
+    "main.css": "/taskim/static/css/main.3f9a2a39.chunk.css",
+    "main.js": "/taskim/static/js/main.520afb16.chunk.js",
+    "main.js.map": "/taskim/static/js/main.520afb16.chunk.js.map",
+    "runtime~main.js": "/taskim/static/js/runtime~main.96fcc4f7.js",
+    "runtime~main.js.map": "/taskim/static/js/runtime~main.96fcc4f7.js.map",
+    "static/js/2.1f09659b.chunk.js": "/taskim/static/js/2.1f09659b.chunk.js",
+    "static/js/2.1f09659b.chunk.js.map": "/taskim/static/js/2.1f09659b.chunk.js.map",
+    "index.html": "/taskim/index.html",
+    "precache-manifest.2bb9aaad205093c1f29a93d66f2eb908.js": "/taskim/precache-manifest.2bb9aaad205093c1f29a93d66f2eb908.js",
+    "service-worker.js": "/taskim/service-worker.js",
+    "static/css/main.3f9a2a39.chunk.css.map": "/taskim/static/css/main.3f9a2a39.chunk.css.map",
+    "static/media/avatar.png": "/taskim/static/media/avatar.31d2c9b8.png"
+  }
 }
