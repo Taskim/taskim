@@ -1,0 +1,47 @@
+.header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #02002c;
+}
+
+.card {
+    width: 485.41px;
+    height: 300px;
+    background: #ebebeb;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.img-container {
+    height: calc(100% - 36px);
+    margin: 16px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.avatar {
+    height: 70%;
+}
+
+.card-text {}
+
+.card-text>div:first-child {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.card-text>div:last-child {
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+.projects {
+    width: 100vw;
+    height: 100vh;
+}
