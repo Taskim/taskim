@@ -15,7 +15,7 @@ const trans = (x, y, s) =>
 function Card() {
     const [props, set] = useSpring(() => ({
         xys: [0, 0, 1],
-        config: { mass: 1, tension: 500, friction: 12 }
+        config: { mass: 1, tension: 450, friction: 32 }
     }))
     console.log('props', props)
     return (
