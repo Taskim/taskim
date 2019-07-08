@@ -24,14 +24,15 @@ const trans = (x, y, s) =>
 function Card() {
     const [props, set] = useSpring(() => ({
         xys: [0, 0, 1],
+        glow: [0, 0, 0.5, 1, 0.25, 0],
         config: { mass: 1, tension: 450, friction: 32 }
     }))
     const parallax = useRef(null)
     console.log('props', props)
     return (
         <>
-            <Parallax ref={parallax} pages={3}>
-                <ParallaxLayer
+            <Parallax ref={parallax} pages={4}>
+                {/*<ParallaxLayer
                     offset={0}
                     speed={-0.5}
                     style={{
@@ -63,7 +64,7 @@ function Card() {
                             <path d="m256 310.582031c-17.015625 0-33.015625-6.628906-45.046875-18.660156-3.058594-3.0625-3.058594-8.023437 0-11.082031 3.0625-3.0625 8.023437-3.0625 11.082031 0 9.074219 9.070312 21.132813 14.066406 33.964844 14.066406s24.890625-4.996094 33.964844-14.066406c3.058594-3.0625 8.023437-3.0625 11.082031 0 3.058594 3.058594 3.058594 8.019531 0 11.082031-12.03125 12.03125-28.03125 18.660156-45.046875 18.660156zm0 0" />
                         </g>
                     </svg>
-                </ParallaxLayer>
+                </ParallaxLayer>*/}
                 <ParallaxLayer
                     offset={1}
                     speed={1}
@@ -73,6 +74,12 @@ function Card() {
                     offset={2}
                     speed={1}
                     style={{ backgroundColor: '#87BCDE' }}
+                />
+
+                <ParallaxLayer
+                    offset={3}
+                    speed={1}
+                    style={{ backgroundColor: '#A7CA0E' }}
                 />
 
                 <ParallaxLayer
@@ -246,7 +253,9 @@ function Card() {
                     style={{
                         display: 'flex',
                         alignItems: 'center',
-                        justifyContent: 'center'
+                        justifyContent: 'center',
+                        flexDirection: 'column',
+                        zIndex: 2
                     }}>
                     <animated.div
                         className="card"
@@ -263,8 +272,20 @@ function Card() {
                             <div>Front-end Developer @evaneos</div>
                         </div>
                     </animated.div>
+                    <animated.div className="message" style={{}}>
+                        Touch me
+                    </animated.div>
                 </ParallaxLayer>
 
+                <ParallaxLayer
+                    offset={0}
+                    speed={0.15}
+                    style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'flex-start'
+                    }}
+                />
                 <ParallaxLayer
                     offset={1}
                     speed={0.1}
@@ -272,7 +293,8 @@ function Card() {
                     style={{
                         display: 'flex',
                         alignItems: 'center',
-                        justifyContent: 'center'
+                        justifyContent: 'center',
+                        flexDirection: 'column'
                     }}>
                     <div className="device device-macbook-pro">
                         <div className="device-frame">
@@ -292,7 +314,34 @@ function Card() {
                         <div className="device-btns" />
                         <div className="device-power" />
                     </div>
+                    <div className="message">{'Try me'}</div>
                 </ParallaxLayer>
+
+                {/*<ParallaxLayer
+                    offset={2}
+                    speed={0.1}
+                    onClick={() => parallax.current.scrollTo(3)}
+                    style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        flexDirection: 'column'
+                    }}>
+                    <div className="device device-iphone-8">
+                        <div className="device-frame">
+                            <img
+                                className="device-content"
+                                src="https://picturepan2.github.io/devices.css/src/img/bg-01.jpg"
+                            />
+                        </div>
+                        <div className="device-stipe" />
+                        <div className="device-header" />
+                        <div className="device-sensors" />
+                        <div className="device-btns" />
+                        <div className="device-power" />
+                    </div>
+                    <div className="message">{'Try me'}</div>
+                </ParallaxLayer>*/}
 
                 <ParallaxLayer
                     offset={2}
