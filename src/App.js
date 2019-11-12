@@ -1,5 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useTransition, animated } from 'react-spring'
+import { useSwipeable } from 'react-swipeable'
+
 import './App.css'
 
 const pages = [
@@ -11,7 +13,7 @@ const pages = [
                 background:
                     'linear-gradient(123deg, rgba(255,189,91,1) 0%, rgba(255,137,184,1) 100%)'
             }}>
-            CV
+            BJ
         </animated.div>
     ),
     ({ style }) => (
@@ -54,8 +56,29 @@ function App() {
             transform: `translate3d(${lastIndex < index ? '-50%' : '50%'} ,0,0)`
         }
     })
+
+    const handleKeyPress = props => {
+        if (props.key === 'ArrowRight') {
+            changePage(index + 1)
+        } else if (props.key === 'ArrowLeft') {
+            changePage(index - 1)
+        }
+    }
+    useEffect(() => {
+        window.addEventListener('keydown', handleKeyPress)
+        return () => {
+            window.removeEventListener('keydown', handleKeyPress)
+        }
+    })
+
+    const swipeHandlers = useSwipeable({
+        onSwipedLeft: () => changePage(index + 1),
+        onSwipedRight: () => changePage(index - 1),
+        delta: 5
+    })
+
     return (
-        <div className="simple-trans-main">
+        <div className="simple-trans-main" {...swipeHandlers}>
             <div className="controls">
                 <button className="left" onClick={() => changePage(index - 1)}>
                     left
