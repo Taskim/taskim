@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/taskim/static/css/main.874cabc2.chunk.css",
-    "main.js": "/taskim/static/js/main.e4b118ed.chunk.js",
-    "main.js.map": "/taskim/static/js/main.e4b118ed.chunk.js.map",
+    "main.js": "/taskim/static/js/main.17b134ca.chunk.js",
+    "main.js.map": "/taskim/static/js/main.17b134ca.chunk.js.map",
     "runtime~main.js": "/taskim/static/js/runtime~main.96fcc4f7.js",
     "runtime~main.js.map": "/taskim/static/js/runtime~main.96fcc4f7.js.map",
     "static/js/2.16e07bf3.chunk.js": "/taskim/static/js/2.16e07bf3.chunk.js",
     "static/js/2.16e07bf3.chunk.js.map": "/taskim/static/js/2.16e07bf3.chunk.js.map",
     "index.html": "/taskim/index.html",
-    "precache-manifest.a90b11e996b94b9cb08e111cefafd300.js": "/taskim/precache-manifest.a90b11e996b94b9cb08e111cefafd300.js",
+    "precache-manifest.4a55f96c4aafabc4175f193f38ad24bb.js": "/taskim/precache-manifest.4a55f96c4aafabc4175f193f38ad24bb.js",
     "service-worker.js": "/taskim/service-worker.js",
     "static/css/main.874cabc2.chunk.css.map": "/taskim/static/css/main.874cabc2.chunk.css.map"
   }
