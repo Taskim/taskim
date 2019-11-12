@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bb63e4e19d5c5622f91d8d6096b5d6c9",
+    "revision": "383df07aca3a6703d16ae3a6450a71cd",
     "url": "/taskim/index.html"
   },
   {
-    "revision": "275051a208f3eebc849d",
-    "url": "/taskim/static/css/main.71b8ec40.chunk.css"
+    "revision": "f069396c7645b74766f2",
+    "url": "/taskim/static/css/main.48723542.chunk.css"
   },
   {
     "revision": "a4bcb2f57fc0044ff015",
     "url": "/taskim/static/js/2.55e0ab97.chunk.js"
   },
   {
-    "revision": "275051a208f3eebc849d",
+    "revision": "f069396c7645b74766f2",
     "url": "/taskim/static/js/main.695800a7.chunk.js"
   },
   {
