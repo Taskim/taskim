@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useTransition, animated } from 'react-spring'
 import { useSwipeable } from 'react-swipeable'
 
+import Home from './Home'
 import './App.css'
 
 const pages = [
@@ -13,13 +14,17 @@ const pages = [
                 background:
                     'linear-gradient(123deg, rgba(255,189,91,1) 0%, rgba(255,137,184,1) 100%)'
             }}>
-            BJ
+            <Home />
         </animated.div>
     ),
     ({ style }) => (
         <animated.div
             className="page"
-            style={{ ...style, background: 'lightblue' }}>
+            style={{
+                ...style,
+                background:
+                    'linear-gradient(42deg, rgba(168,255,196,1) 0%, rgba(107,198,255,1) 100%)'
+            }}>
             B
         </animated.div>
     ),

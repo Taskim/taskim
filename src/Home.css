@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.name {
+    font-size: 56px;
+    font-family: Playfair Display;
+}
+
+.rname {
+    font-size: 24px;
+    font-family: Playfair Display;
+    margin: 16px 0 24px 0;
+    font-style: italic;
+}
+
+.subtitle {
+    font-family: Hind;
+    font-size: 18px;
+    width: 90%;
+    font-weight: 100;
+}
+
+.particles {
+    position: fixed;
+    right: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+@media screen and (min-width: 720px) {
+    .name {
+        font-size: 128px;
+    }
+    .rname {
+        font-size: 32px;
+    }
+    .subtitle {
+        font-size: 25px;
+        width: 60%;
+    }
+}

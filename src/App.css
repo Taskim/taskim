@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Codystar|Megrim|Ubuntu:200,300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Codystar|Megrim|Ubuntu:200,300,400,700|Playfair+Display:900|Hind:300&display=swap');
 html,
 body {
-    background-color: #CCC;
+    background-color: #ccc;
     font-family: 'Ubuntu';
     width: 100%;
     max-width: 100%;
@@ -41,7 +41,7 @@ body {
     align-items: center;
     color: white;
     font-weight: 800;
-    font-size: 25em;
+    /* font-size: 25em; */
     will-change: transform, opacity;
     text-shadow: 0px 2px 40px #00000020, 0px 2px 5px #00000030;
 }
@@ -51,6 +51,7 @@ body {
     bottom: 16px;
     right: 16px;
     z-index: 2;
+    display: flex;
 }
 
 .button {
@@ -67,6 +68,9 @@ body {
     width: 56px;
     margin: 0px 0px 0 16px;
     /* margin: 1em 0.8em; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .button.type1 {
@@ -111,6 +115,6 @@ body {
 
 @media screen and (max-width: 500px) {
     .page {
-        font-size: 15em;
+        /* font-size: 15em; */
     }
 }
