@@ -80,11 +80,15 @@ function App() {
     return (
         <div className="simple-trans-main" {...swipeHandlers}>
             <div className="controls">
-                <button className="left" onClick={() => changePage(index - 1)}>
-                    left
+                <button
+                    className="button type1"
+                    onClick={() => changePage(index - 1)}>
+                    ←
                 </button>
-                <button className="right" onClick={() => changePage(index + 1)}>
-                    right
+                <button
+                    className="button type1"
+                    onClick={() => changePage(index + 1)}>
+                    →
                 </button>
             </div>
             {transitions.map(({ item, props, key }) => {
