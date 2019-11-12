@@ -1,57 +1,52 @@
 @import url('https://fonts.googleapis.com/css?family=Codystar|Megrim|Ubuntu:200,300,400,700&display=swap');
+html,
 body {
-    background-color: #02002c;
+    background-color: #CCC;
     font-family: 'Ubuntu';
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-.card {
-    width: 485.41px;
-    height: 300px;
-    background: #ebebeb;
-    border-radius: 5px;
+body {
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    background: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+#root {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.page {
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+    height: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
-    z-index: 10;
-}
-
-.img-container {
-    height: calc(100% - 36px);
-    margin: 16px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    border: 2px solid black;
-}
-
-.avatar {
-    height: 70%;
-}
-
-.card-text {}
-
-.card-text>div:first-child {
-    font-size: 42px;
-    font-weight: bold;
-}
-
-.card-text>div:last-child {
-    font-size: 28px;
-    font-weight: lighter;
-    margin: 16px 0;
-}
-
-.message {
-    font-family: 'Codystar';
-    font-size: 44px;
     color: white;
-    margin-top: 24px;
-    /* margin-top: 48px; */
-    /* transform: translateY(-50px);
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3); */
+    font-weight: 800;
+    font-size: 25em;
+    will-change: transform, opacity;
+    text-shadow: 0px 2px 40px #00000020, 0px 2px 5px #00000030;
 }
 
-.device {
-    transform: scale(1);
+.controls {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    z-index: 2;
 }
