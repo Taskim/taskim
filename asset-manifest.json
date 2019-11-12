@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/taskim/static/css/main.4980fe60.chunk.css",
-    "main.js": "/taskim/static/js/main.36d1554c.chunk.js",
-    "main.js.map": "/taskim/static/js/main.36d1554c.chunk.js.map",
+    "main.css": "/taskim/static/css/main.71b8ec40.chunk.css",
+    "main.js": "/taskim/static/js/main.695800a7.chunk.js",
+    "main.js.map": "/taskim/static/js/main.695800a7.chunk.js.map",
     "runtime~main.js": "/taskim/static/js/runtime~main.96fcc4f7.js",
     "runtime~main.js.map": "/taskim/static/js/runtime~main.96fcc4f7.js.map",
     "static/js/2.55e0ab97.chunk.js": "/taskim/static/js/2.55e0ab97.chunk.js",
     "static/js/2.55e0ab97.chunk.js.map": "/taskim/static/js/2.55e0ab97.chunk.js.map",
     "index.html": "/taskim/index.html",
-    "precache-manifest.6a93c8e153f314f4d8e6c08d28750ab6.js": "/taskim/precache-manifest.6a93c8e153f314f4d8e6c08d28750ab6.js",
+    "precache-manifest.5a59ac6be2a1bf714ca8c8caf9a49c12.js": "/taskim/precache-manifest.5a59ac6be2a1bf714ca8c8caf9a49c12.js",
     "service-worker.js": "/taskim/service-worker.js",
-    "static/css/main.4980fe60.chunk.css.map": "/taskim/static/css/main.4980fe60.chunk.css.map"
+    "static/css/main.71b8ec40.chunk.css.map": "/taskim/static/css/main.71b8ec40.chunk.css.map"
   }
 }
