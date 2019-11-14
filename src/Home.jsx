@@ -4,7 +4,7 @@ import Particles from 'react-particles-js'
 import './Home.css'
 
 const Home = () => (
-    <div className="container">
+    <div className="h-container">
         <Particles
             params={{
                 particles: {
@@ -58,11 +58,11 @@ const Home = () => (
                     // retina_detect: true
                 }
             }}
-            canvasClassName="particles"
+            canvasClassName="h-particles"
         />
-        <div className="name">{'<Taskim />'}</div>
-        <div className="rname">Tony Miksa</div>
-        <div className="subtitle">
+        <div className="h-name">{'<Taskim />'}</div>
+        <div className="h-rname">Tony Miksa</div>
+        <div className="h-subtitle">
             Développeur passionné et perfectionniste, qui aime les choses bien
             faites
         </div>
