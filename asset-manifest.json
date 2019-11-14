@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/taskim/static/css/main.27ecb280.chunk.css",
-    "main.js": "/taskim/static/js/main.0e2d9b26.chunk.js",
-    "main.js.map": "/taskim/static/js/main.0e2d9b26.chunk.js.map",
+    "main.css": "/taskim/static/css/main.ce27b0a6.chunk.css",
+    "main.js": "/taskim/static/js/main.135c2b13.chunk.js",
+    "main.js.map": "/taskim/static/js/main.135c2b13.chunk.js.map",
     "runtime~main.js": "/taskim/static/js/runtime~main.96fcc4f7.js",
     "runtime~main.js.map": "/taskim/static/js/runtime~main.96fcc4f7.js.map",
-    "static/js/2.55e0ab97.chunk.js": "/taskim/static/js/2.55e0ab97.chunk.js",
-    "static/js/2.55e0ab97.chunk.js.map": "/taskim/static/js/2.55e0ab97.chunk.js.map",
+    "static/js/2.fb6c3d44.chunk.js": "/taskim/static/js/2.fb6c3d44.chunk.js",
+    "static/js/2.fb6c3d44.chunk.js.map": "/taskim/static/js/2.fb6c3d44.chunk.js.map",
     "index.html": "/taskim/index.html",
-    "precache-manifest.a5d557d4505037df0c6595689d79d4e3.js": "/taskim/precache-manifest.a5d557d4505037df0c6595689d79d4e3.js",
+    "precache-manifest.6005e5dfc543f2d83e376e9bb10c3fd2.js": "/taskim/precache-manifest.6005e5dfc543f2d83e376e9bb10c3fd2.js",
     "service-worker.js": "/taskim/service-worker.js",
-    "static/css/main.27ecb280.chunk.css.map": "/taskim/static/css/main.27ecb280.chunk.css.map"
+    "static/css/main.ce27b0a6.chunk.css.map": "/taskim/static/css/main.ce27b0a6.chunk.css.map"
   }
 }
