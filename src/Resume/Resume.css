@@ -16,7 +16,7 @@
 
 .r-line {
     width: 2px;
-    background: #FFF;
+    background: #fff;
     height: 100%;
     position: absolute;
     z-index: -1;
@@ -30,12 +30,39 @@
     margin-left: -19px;
 }
 
+.r-point-container {
+    display: flex;
+}
+
 .r-point {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: #FFF;
+    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #666;
+    transition: transform 0.1s ease-out;
+    cursor: pointer;
+}
+
+.r-point:hover {
+    transform: scale(1.1);
+}
+
+.r-logo {
+    width: 20px;
+    height: 20px;
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 30px solid #fff;
+    position: absolute;
+    top: -30px;
+    left: -11px;
 }

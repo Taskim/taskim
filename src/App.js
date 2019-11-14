@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react'
 
 import Home from './Home'
 import Resume from './Resume'
+import Projects from './Projects'
 import './App.css'
 
 function App() {
@@ -37,19 +38,19 @@ function App() {
 
     return (
         <div className="app-container" ref={containerRef}>
-            <div className="controls">
+            {/*<div className="controls">
                 <button className="button type1" onClick={() => scrollLeft()}>
                     ←
                 </button>
                 <button className="button type1" onClick={scrollRight}>
                     →
                 </button>
-            </div>
+    </div>*/}
             <div
                 className="page"
                 style={{
                     background:
-                        'linear-gradient(123deg, rgba(255,189,91,1) 0%, rgba(255,137,184,1) 100%)'
+                        'linear-gradient(90deg, rgba(255,189,91,1) 0%, rgba(255,137,184,1) 100%)'
                 }}>
                 <Home />
             </div>
@@ -58,13 +59,18 @@ function App() {
                 className="page"
                 style={{
                     background:
-                        'linear-gradient(42deg, rgba(168,255,196,1) 0%, rgba(107,198,255,1) 100%)'
+                        'linear-gradient(90deg, rgba(255,137,184,1) 0%, rgba(184,166,218,1) 100%)'
                 }}>
                 <Resume />
             </div>
 
-            <div className="page" style={{ background: 'lightgreen' }}>
-                PROJECTS
+            <div
+                className="page"
+                style={{
+                    background:
+                        'linear-gradient(90deg, rgba(184,166,218,1) 0%, rgba(107,198,255,1) 100%)'
+                }}>
+                <Projects />
             </div>
             <div className="page" style={{ background: 'lightpink' }}>
                 CONTACT
