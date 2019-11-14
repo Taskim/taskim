@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/taskim/static/css/main.ce27b0a6.chunk.css",
-    "main.js": "/taskim/static/js/main.135c2b13.chunk.js",
-    "main.js.map": "/taskim/static/js/main.135c2b13.chunk.js.map",
+    "main.css": "/taskim/static/css/main.6999a916.chunk.css",
+    "main.js": "/taskim/static/js/main.2025969c.chunk.js",
+    "main.js.map": "/taskim/static/js/main.2025969c.chunk.js.map",
     "runtime~main.js": "/taskim/static/js/runtime~main.96fcc4f7.js",
     "runtime~main.js.map": "/taskim/static/js/runtime~main.96fcc4f7.js.map",
-    "static/js/2.fb6c3d44.chunk.js": "/taskim/static/js/2.fb6c3d44.chunk.js",
-    "static/js/2.fb6c3d44.chunk.js.map": "/taskim/static/js/2.fb6c3d44.chunk.js.map",
+    "static/js/2.9008b60b.chunk.js": "/taskim/static/js/2.9008b60b.chunk.js",
+    "static/js/2.9008b60b.chunk.js.map": "/taskim/static/js/2.9008b60b.chunk.js.map",
     "index.html": "/taskim/index.html",
-    "precache-manifest.6005e5dfc543f2d83e376e9bb10c3fd2.js": "/taskim/precache-manifest.6005e5dfc543f2d83e376e9bb10c3fd2.js",
+    "precache-manifest.4d69f670bd691f269782cab8a927ef3e.js": "/taskim/precache-manifest.4d69f670bd691f269782cab8a927ef3e.js",
     "service-worker.js": "/taskim/service-worker.js",
-    "static/css/main.ce27b0a6.chunk.css.map": "/taskim/static/css/main.ce27b0a6.chunk.css.map"
+    "static/css/main.6999a916.chunk.css.map": "/taskim/static/css/main.6999a916.chunk.css.map",
+    "static/media/evaneos.svg": "/taskim/static/media/evaneos.bb5b12d2.svg",
+    "static/media/hairfie.svg": "/taskim/static/media/hairfie.3368e2e7.svg"
   }
 }
